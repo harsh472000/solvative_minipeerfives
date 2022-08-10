@@ -1,0 +1,34 @@
+{
+  "name": "mini_peerfives",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "jest",
+    "test:unit": "ENV_FILE=./config/.env.test jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-serve-static-core": "^0.1.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/supertest": "^2.0.12",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4",
+    "ts-jest": "^28.0.7"
+  }
+}
